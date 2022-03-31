@@ -205,6 +205,10 @@ p {
     color: #777;
 }
 
+.social__link i:hover {
+    color: var(--primary-color);
+}
+
 .nav__list {
     justify-self: end;
     display: flex;
@@ -262,7 +266,6 @@ p {
 }
 
 
-
 /* Home Articles */
 .articles-container {
     display: grid;
@@ -285,6 +288,18 @@ p {
     grid-column: 2 / span 2;
 
 }
+
+.meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #eee;
+    padding: 0.5rem;
+}
+
+#article .meta .category {
+    margin-top: 0.4rem;    
+} 
 
 #main-footer {
     background: var(--dark-color);
