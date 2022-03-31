@@ -80,6 +80,10 @@ p {
     padding: 3rem;
 }
 
+.l-heading{
+    font-size: 3rem;
+}
+
 .bg-dark h1,
 .bg-dark h2,
 .bg-dark h3,
@@ -327,4 +331,16 @@ p {
 
 .list li a:hover {
    color: var(--primary-color); 
+}
+
+/* About Section */
+.page-container {
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    margin: 2rem 0;
+    grid-gap: 1.5rem;
+}
+
+.page-container > *:first-child {
+    grid-row: 1 / span 3;
 }
